@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mgvidyalaya-upper-primary-school": {
+    "mgvidyalaya-secondary-higher-secondary-school": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mgvidyalaya-upper-primary-school",
+            "outputPath": "dist/mgvidyalaya-secondary-higher-secondary-school",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -99,10 +99,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mgvidyalaya-upper-primary-school:build:production"
+              "buildTarget": "mgvidyalaya-secondary-higher-secondary-school:build:production"
             },
             "development": {
-              "buildTarget": "mgvidyalaya-upper-primary-school:build:development"
+              "buildTarget": "mgvidyalaya-secondary-higher-secondary-school:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -110,7 +110,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "mgvidyalaya-upper-primary-school:build"
+            "buildTarget": "mgvidyalaya-secondary-higher-secondary-school:build"
           }
         },
         "test": {
